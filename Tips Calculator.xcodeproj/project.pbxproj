@@ -14,6 +14,7 @@
 		C33A2C181D1D3AF300A080A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33A2C161D1D3AF300A080A5 /* LaunchScreen.storyboard */; };
 		C33A2C231D1D3AF400A080A5 /* Tips_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A2C221D1D3AF400A080A5 /* Tips_CalculatorTests.swift */; };
 		C33A2C2E1D1D3AF400A080A5 /* Tips_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A2C2D1D1D3AF400A080A5 /* Tips_CalculatorUITests.swift */; };
+		C33A2C3C1D1D852500A080A5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A2C3B1D1D852500A080A5 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C33A2C291D1D3AF400A080A5 /* Tips CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tips CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33A2C2D1D1D3AF400A080A5 /* Tips_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips_CalculatorUITests.swift; sourceTree = "<group>"; };
 		C33A2C2F1D1D3AF400A080A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33A2C3B1D1D852500A080A5 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				C33A2C0D1D1D3AF200A080A5 /* AppDelegate.swift */,
 				C33A2C0F1D1D3AF200A080A5 /* ViewController.swift */,
 				C33A2C111D1D3AF300A080A5 /* Main.storyboard */,
+				C33A2C3B1D1D852500A080A5 /* SettingsViewController.swift */,
 				C33A2C141D1D3AF300A080A5 /* Assets.xcassets */,
 				C33A2C161D1D3AF300A080A5 /* LaunchScreen.storyboard */,
 				C33A2C191D1D3AF300A080A5 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				C33A2C101D1D3AF200A080A5 /* ViewController.swift in Sources */,
 				C33A2C0E1D1D3AF200A080A5 /* AppDelegate.swift in Sources */,
+				C33A2C3C1D1D852500A080A5 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Tips Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tips-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Tips Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tips-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
